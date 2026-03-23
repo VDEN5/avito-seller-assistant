@@ -1,16 +1,18 @@
-# Запуск проекта Webpack + Typescript
-
-Документация - https://kinopoisk.dev/
-
-Получить токен - https://t.me/kinopoiskdev_bot
-
-## Установка:
+# Установка:
 
 1. Открыть терминал на Windows
 
 2. Клонировать этот репозиторий
 
+```
+git clone https://github.com/VDEN5/avito-seller-assistant
+```
+
 3. Перейти в папку репозитория
+
+```
+cd avito-seller-assistant
+```
 
 4. Перейти в папку сервера
 
@@ -43,10 +45,10 @@ cd ../client
 npm i
 ```
 
-10. Создать в папке файл с названием .env и заполнить его данными, согласно .env.default
+10. Создать в папке файл с названием .env и заполнить его данными, согласно .env.default. Нужно внести свои API ключ и ID папки
 
 11. Запуск
 
 ```
-npm start
+npm run dev
 ```
